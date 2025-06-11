@@ -18,7 +18,7 @@ warnings.filterwarnings('ignore')
 # ==================== CONFIGURATION ====================
 class Config:
     """Configuration constants for the application"""
-    PAGE_TITLE = "Analisis Pasar Sumedang"
+    PAGE_TITLE = "Smart Market Analytics"
     PAGE_ICON = "📊"
     LAYOUT = "wide"
     
@@ -312,7 +312,7 @@ class PDFGenerator:
             
             # Left side - document info
             self.set_x(15)
-            self.cell(0, 5, f"Dokumen dibuat secara otomatis oleh Sistem Analisis Pasar Sumedang", ln=True, align='L')
+            self.cell(0, 5, f"Dokumen dibuat secara otomatis oleh Smart Market Analytics", ln=True, align='L')
             
             # Right side - page and date
             self.set_y(-15)
