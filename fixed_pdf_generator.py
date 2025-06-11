@@ -18,7 +18,7 @@ warnings.filterwarnings('ignore')
 # ==================== CONFIGURATION ====================
 class Config:
     """Configuration constants for the application"""
-    PAGE_TITLE = "Analisis Pasar Sumedang"
+    PAGE_TITLE = "Smart Market Analytics"
     PAGE_ICON = "📊"
     LAYOUT = "wide"
     
